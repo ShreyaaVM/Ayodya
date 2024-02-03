@@ -1,0 +1,87 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("https://static.india.com/wp-content/uploads/2024/01/Ayodhya-Ram-Mandir-Image-Credit_Twitter.jpg");
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+}
+
+aside{
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("https://images.indianexpress.com/2024/01/ayodhya-ram-temple-1600-2.jpg");
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+     color: blanchedalmond;
+}
+
+div{
+    padding: 20px;
+    height: 100vh;
+    width: 100vw;
+    background-image:url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202401/ram-mandir-ayodhya-news-204458516-16x9.jpeg?VersionId=YrZ.fgjZX5ZoizenG259yiuUd4R_qszW");
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+     color: black;
+}
+
+
+section h2 {
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
